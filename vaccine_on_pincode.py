@@ -1,7 +1,6 @@
 
 import telebot
 from telebot import types 
-from turtle import update
 from bs4 import BeautifulSoup
 from time import sleep, time
 import requests
@@ -9,7 +8,6 @@ import json
 import sys
 import os
 
-from telegram import InlineKeyboardMarkup
 print("Bot Is Started")
 token = "5433110161:AAHkRRpTs1nTz3EuB6u8POejJvocZvOopFA"
 sudo_id = ''
