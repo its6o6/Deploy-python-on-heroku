@@ -1,5 +1,7 @@
+
 import telebot
 from telebot import types 
+from turtle import update
 from bs4 import BeautifulSoup
 from time import sleep, time
 import requests
@@ -7,14 +9,15 @@ import json
 import sys
 import os
 
+from telegram import InlineKeyboardMarkup
 print("Bot Is Started")
-token = "5502185335:AAHt-PkXQWAlusaXdVIgBvlc0YqGmYT8OxM"
+token = "5433110161:AAHkRRpTs1nTz3EuB6u8POejJvocZvOopFA"
 sudo_id = ''
 bot = telebot.TeleBot(token)
-ch ="titantrex"
+ch ="false10"
 msg = """مرحباً، هذا البوت يقوم بتحميل القصص من السناب شات بالكامل. كل ماعليك هو ققط ادخال اسم المستخدم.
 
-🍔 لإستخدام هذه الخدمة يجب عليك الإنضمام الى هذه القناة - : @titantrex """
+🍔 لإستخدام هذه الخدمة يجب عليك الإنضمام الى هذه القناة - : @false10 """
 
 msg2 = """
 ● طريقة استخدام البوت
@@ -164,7 +167,7 @@ def re(m):
                                 bot.send_message(m.chat.id,'لام يتم التنزيل مقاطع او صور اليوم')
                             else:
                                 bot.send_message(m.chat.id,'تم التنزيل')
-                                bot.send_message(m.chat.id,"تابعنا على حسابنا في سناب شات: sr2ip https://www.snapchat.com/add/sr2ip")
+                                bot.send_message(m.chat.id,"تابعنا على حسابنا في سناب شات: rashed https://www.snapchat.com/add/rashed")
 
                         
 
