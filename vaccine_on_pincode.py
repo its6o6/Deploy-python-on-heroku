@@ -7,7 +7,6 @@ import json
 import sys
 import os
 
-from telegram import InlineKeyboardMarkup
 print("Bot Is Started")
 token = "5502185335:AAHt-PkXQWAlusaXdVIgBvlc0YqGmYT8OxM"
 sudo_id = ''
