@@ -1,6 +1,5 @@
 import telebot
 from telebot import types 
-from turtle import update
 from bs4 import BeautifulSoup
 from time import sleep, time
 import requests
